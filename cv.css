@@ -193,7 +193,7 @@ body {
     content: '';
     position: absolute;
     left: -53px; /* -20px (position-timeline margin) - 25px (half timeline padding 50px) - 6px (half dot width 12px) - 2px (border visual adjustment) */
-    top: 25px;
+    top: 10px;
     width: 12px;
     height: 12px;
     background: #0077b5;
@@ -270,38 +270,17 @@ body {
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
 }
 
 .skill-tag {
-    padding: 8px 16px;
-    border-radius: 20px;
+    padding: 4px 8px;
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
-    color: white;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.skill-tag:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.skill-tag.expert {
-    background: linear-gradient(135deg, #0077b5, #005582);
-}
-
-.skill-tag.advanced {
-    background: linear-gradient(135deg, #28a745, #1e7e34);
-}
-
-.skill-tag.intermediate {
-    background: linear-gradient(135deg, #ffc107, #e0a800);
     color: #333;
-}
-
-.skill-tag.learning {
-    background: linear-gradient(135deg, #6c757d, #495057);
 }
 
 /* Education Section Styles */
@@ -341,6 +320,33 @@ body {
     font-size: 14px;
 }
 
+/* Other Section Styles */
+.other-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.other-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.other-category {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0077b5;
+    margin: 0;
+}
+
+.other-content {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+}
+
 /* Print Styles */
 @media print {
     body {
@@ -352,15 +358,6 @@ body {
         margin: 0;
         width: 100%;
         max-width: none;
-    }
-    
-    .skill-tag {
-        transition: none;
-    }
-    
-    .skill-tag:hover {
-        transform: none;
-        box-shadow: none;
     }
 }
 
@@ -431,11 +428,27 @@ body {
     }
     
     .skill-tags {
-        gap: 8px;
+        gap: 6px;
     }
     
     .skill-tag {
-        padding: 6px 12px;
+        padding: 3px 6px;
+        font-size: 13px;
+    }
+    
+    .other-container {
+        gap: 15px;
+    }
+    
+    .other-group {
+        gap: 6px;
+    }
+    
+    .other-category {
+        font-size: 14px;
+    }
+    
+    .other-content {
         font-size: 13px;
     }
 }
