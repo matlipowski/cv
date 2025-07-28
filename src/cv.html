@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Smith - CV</title>
+    <title>Mateusz Lipowski — CV</title>
     <link rel="stylesheet" href="cv.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
         <div class="header">
             <div class="header-content">
                 <div class="profile-info">
-                    <h1>John Smith</h1>
-                    <h2>Senior Software Developer</h2>
+                    <h1 data-t="profile.name"></h1>
+                    <h2 data-t="profile.title"></h2>
 <!--                    <p class="summary">-->
 <!--                        Experienced software developer with 8+ years of expertise in full-stack development, -->
 <!--                        specializing in modern web technologies and cloud solutions. Passionate about creating -->
@@ -23,15 +23,15 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <span class="contact-icon">📧</span>
-                            <a href="mailto:john.smith@email.com">john.smith@email.com</a>
+                            <a data-attr-t data-attr-t-interpolate href-t="mailto:{{profile.contact.mail.href}}" href="mailto:john.smith@email.com" data-t="profile.contact.mail.text"></a>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">📱</span>
-                            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                            <a data-attr-t data-attr-t-interpolate href-t="tel:{{profile.contact.phone.href}}" data-t="profile.contact.phone.text"></a>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">🌐</span>
-                            <a href="https://linkedin.com/in/johnsmith" target="_blank">linkedin.com/in/johnsmith</a>
+                            <a data-attr-t href-t="profile.contact.linkedin.href" target="_blank" data-t="profile.contact.linkedin.text"></a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
 
         <!-- Skills Section -->
         <div class="section">
-            <h2 class="section-title">Technical Skills</h2>
+            <h2 class="section-title" data-t="section.technicalSkills"></h2>
             <div class="skills-container">
                 <div class="skill-group">
                     <h3 class="skill-level">Expert</h3>
@@ -180,7 +180,7 @@
 
         <!-- Education Section -->
         <div class="section">
-            <h2 class="section-title">Education</h2>
+            <h2 class="section-title" data-t="section.education"></h2>
             <div class="education-item">
                 <div class="education-header">
                     <h3>Bachelor of Science in Computer Science</h3>
@@ -200,7 +200,7 @@
 
         <!-- Other Section -->
         <div class="section">
-            <h2 class="section-title">Other</h2>
+            <h2 class="section-title" data-t="section.other"></h2>
             <div class="other-container">
                 <div class="other-group">
                     <h4 class="other-category">Languages</h4>
@@ -211,8 +211,8 @@
                     <p class="other-content">Photography, Rock climbing, Open source contributions, Chess, Travel</p>
                 </div>
                 <div class="other-group">
-                    <h4 class="other-category">Volunteer Work</h4>
-                    <p class="other-content">Code mentor at local coding bootcamp, Technology advisor for non-profit organizations</p>
+                    <h4 class="other-category">Preferred Cheescake Variant</h4>
+                    <p class="other-content">Without raisins</p>
                 </div>
             </div>
         </div>

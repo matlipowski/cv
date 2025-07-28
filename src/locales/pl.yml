@@ -1,2 +1,22 @@
+profile:
+  name: Mateusz Lipowski
+  title: Senior Software Developer
+  contact:
+    mail:
+      text: matlipowski@gmail.com
+      href: matlipowski@gmail.com
+    phone:
+      text: 723 243 099
+      href: 723243099
+    linkedin:
+      text: mateuszlipowski
+      href: https://www.linkedin.com/in/mateuszlipowski/
+    github:
+      text: matlipowski
+      href: https://github.com/matlipowski
+
 section:
   professionalExperience: Doświadczenie Zawodowe
+  technicalSkills: Umiejętności Techniczne
+  education: Wykształcenie
+  other: Pozostałe
