@@ -25,25 +25,23 @@ body {
 .header {
     background: linear-gradient(135deg, #0077b5, #005582);
     color: white;
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 30px;
 }
 
 .profile-info h1 {
     font-size: 2.5em;
-    margin-bottom: 5px;
     font-weight: 700;
 }
 
 .profile-info h2 {
     font-size: 1.3em;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     opacity: 0.9;
     font-weight: 400;
 }
@@ -75,16 +73,16 @@ body {
 .contact-info {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     font-size: 1em;
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 1px 2px;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -121,7 +119,7 @@ body {
 
 /* Section Styles */
 .section {
-    padding: 40px;
+    padding: 20px 40px;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -183,7 +181,7 @@ body {
 .company-header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     position: relative;
     margin-left: 20px;
 }
@@ -209,13 +207,13 @@ body {
 }
 
 .company-name {
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #333;
-    margin-bottom: 5px;
     font-weight: 600;
 }
 
 .company-duration {
+    font-size: 0.8em;
     color: #666;
     font-weight: 500;
 }
@@ -227,7 +225,7 @@ body {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .timeline-item::before {
@@ -244,26 +242,26 @@ body {
 }
 
 .job-position {
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 .job-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 .job-title {
     color: #333;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
 }
 
 .job-duration {
     color: #666;
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .job-responsibilities {
