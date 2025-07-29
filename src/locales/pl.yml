@@ -67,6 +67,7 @@ section:
       intermediate: Średniozaawansowane
     nonStaticNames:
       design: Architektura oprogramowania i wzorce projektowe
+      testing: Testowanie automatyczne (unit, integracyjne, funkcjonalne, i tak dalej)
       ai: Produktywne korzystanie z AI
   education:
     title: Wykształcenie

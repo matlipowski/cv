@@ -67,6 +67,7 @@ section:
       intermediate: Intermediate
     nonStaticNames:
       design: Software architecture and design patterns
+      testing: Automatic testing (unit, integration, functional, and so on)
       ai: Productive AI usage
   education:
     title: Education
