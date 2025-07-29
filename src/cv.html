@@ -41,7 +41,7 @@
 
         <!-- Experience Section -->
         <div class="section">
-            <h2 class="section-title" data-t="section.professionalExperience"></h2>
+            <h2 class="section-title" data-t="section.professionalExperience.title"></h2>
             <div class="timeline">
                 <div class="company-group">
                     <div class="company-header">
@@ -65,10 +65,12 @@
                                     <li>Building and managing CI/CD infrastructure for all company's products (TeamCity)</li>
                                     <li>Overseeing the development of our mainline product's .NET port</li>
                                     <li>Creating recruitment processes and performing interviews</li>
+                                    <li>Integrating with government service APIs</li>
                                     <li>Managing small development teams</li>
                                 </ul>
                             </div>
                         </div>
+
                         <div class="timeline-item">
                             <div class="job-position">
                                 <div class="job-header">
@@ -78,11 +80,13 @@
                                 <ul class="job-responsibilities">
                                     <li>Developing full stack web applications (80% .NET, 20% Vue.js)</li>
                                     <li>Building and managing CI/CD infrastructure for new software</li>
-                                    <li>Overseeing the development of our mainline product's .NET port</li>
+                                    <li>Developing .NET port of our mainline product</li>
                                     <li>Assistance in recruitment processes of backend and frontend developers</li>
+                                    <li>Integrating with government service APIs</li>
                                 </ul>
                             </div>
                         </div>
+
                         <div class="timeline-item">
                             <div class="job-position">
                                 <div class="job-header">
@@ -127,76 +131,83 @@
 
         <!-- Skills Section -->
         <div class="section">
-            <h2 class="section-title" data-t="section.technicalSkills"></h2>
+            <h2 class="section-title" data-t="section.technicalSkills.title"></h2>
             <div class="skills-container">
                 <div class="skill-group">
-                    <h3 class="skill-level">Expert</h3>
+                    <h3 class="skill-level" data-t="section.technicalSkills.subsection.expert"></h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">.NET / ASP / Entity Framework / C#</span>
+                        <span class="skill-tag">.NET / C#</span>
+                        <span class="skill-tag">ASP.NET</span>
+                        <span class="skill-tag">Entity Framework</span>
+                        <span class="skill-tag">xUnit</span>
                         <span class="skill-tag">JavaScript / TypeScript</span>
                         <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag" data-t="section.technicalSkills.nonStaticNames.design"></span>
                     </div>
                 </div>
+
                 <div class="skill-group">
-                    <h3 class="skill-level">Advanced</h3>
+                    <h3 class="skill-level" data-t="section.technicalSkills.subsection.advanced"></h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Ansible</span>
                         <span class="skill-tag">HTML / CSS</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag" data-t="section.technicalSkills.nonStaticNames.ai"></span>
                     </div>
                 </div>
+
                 <div class="skill-group">
-                    <h3 class="skill-level">Intermediate</h3>
+                    <h3 class="skill-level" data-t="section.technicalSkills.subsection.intermediate"></h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Angular 2+</span>
                         <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Widows Server</span>
+                        <span class="skill-tag">NoSQL</span>
                     </div>
                 </div>
-<!--                <div class="skill-group">-->
-<!--                    <h3 class="skill-level">Learning</h3>-->
-<!--                    <div class="skill-tags">-->
-<!--                        <span class="skill-tag">Go</span>-->
-<!--                        <span class="skill-tag">Machine Learning</span>-->
-<!--                        <span class="skill-tag">GraphQL</span>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
         </div>
 
         <!-- Education Section -->
         <div class="section">
-            <h2 class="section-title" data-t="section.education"></h2>
+            <h2 class="section-title" data-t="section.education.title"></h2>
             <div class="education-item">
                 <div class="education-header">
-                    <h3>Uniwersytet WSB Merito Gdańsk</h3>
-                    <span class="education-year">2018 - 2019</span>
+                    <h3 data-t="section.education.school.wsb.name"></h3>
+                    <span class="education-year" data-t="section.education.school.wsb.period"></span>
                 </div>
-                <p class="education-details">Engineer's degree</p>
+                <p class="education-details" data-t="section.education.school.wsb.details"></p>
             </div>
 
             <div class="education-item">
                 <div class="education-header">
-                    <h3>Uniwersytet Gdański</h3>
-                    <span class="education-year">2014 – 2016</span>
+                    <h3 data-t="section.education.school.ug.name"></h3>
+                    <span class="education-year" data-t="section.education.school.ug.period"></span>
                 </div>
-                <p class="education-details">Bachelor's degree, quit on last year to transition into engineer's degree</p>
+                <p class="education-details" data-t="section.education.school.ug.details"></p>
             </div>
         </div>
 
         <!-- Other Section -->
         <div class="section">
-            <h2 class="section-title" data-t="section.other"></h2>
+            <h2 class="section-title" data-t="section.other.title"></h2>
             <div class="other-container">
                 <div class="other-group">
-                    <h4 class="other-category">Languages</h4>
-                    <p class="other-content">Polish (Native), English (advanced, B2 certified at university)</p>
+                    <h4 class="other-category" data-t="section.other.subsection.languages.title"></h4>
+                    <p class="other-content" data-t="section.other.subsection.languages.content"></p>
                 </div>
                 <div class="other-group">
-                    <h4 class="other-category">Hobbies & Interests</h4>
-                    <p class="other-content">Inline Skating, Video Games (design, architecture and also as entertainment)</p>
+                    <h4 class="other-category" data-t="section.other.subsection.hobbies.title"></h4>
+                    <p class="other-content" data-t="section.other.subsection.hobbies.content"></p>
                 </div>
                 <div class="other-group">
-                    <h4 class="other-category">Preferred Cheescake Variant</h4>
-                    <p class="other-content">Without raisins</p>
+                    <h4 class="other-category" data-t="section.other.subsection.cheesecake.title"></h4>
+                    <p class="other-content" data-t="section.other.subsection.cheesecake.content"></p>
                 </div>
             </div>
         </div>

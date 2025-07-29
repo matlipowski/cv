@@ -16,9 +16,39 @@ profile:
       href: https://github.com/matlipowski
 
 section:
-  professionalExperience: Professional Experience
-  technicalSkills: Technical Skills
-  education: Education
-  other: Other
+  professionalExperience:
+    title: Professional Experience
+  technicalSkills:
+    title: Technical Skills
+    subsection:
+      expert: Expert
+      advanced: Advanced
+      intermediate: Intermediate
+    nonStaticNames:
+      design: Software architecture and design patterns
+      ai: Productive AI usage
+  education:
+    title: Education
+    school:
+      wsb:
+        name: WSB Merito University Gdańsk
+        period: 2018 - 2019
+        details: Engineer's degree
+      ug:
+        name: University of Gdańsk
+        period: 2014 – 2016
+        details: Bachelor's degree, quit on last year to transition into engineer's degree
+  other:
+    title: Other
+    subsection:
+      languages:
+        title: Languages
+        content: Polish (Native), English (advanced, B2 certified at university)
+      hobbies:
+        title: Hobbies & Interests
+        content: Inline Skating, Video Games (design, architecture and as entertainment)
+      cheesecake:
+        title: Preferred Cheesecake Variant
+        content: Without raisins
 
 agreement: Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).

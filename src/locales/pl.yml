@@ -16,9 +16,39 @@ profile:
       href: https://github.com/matlipowski
 
 section:
-  professionalExperience: Doświadczenie Zawodowe
-  technicalSkills: Umiejętności Techniczne
-  education: Wykształcenie
-  other: Pozostałe
+  professionalExperience:
+    title: Doświadczenie Zawodowe
+  technicalSkills:
+    title: Umiejętności Techniczne
+    subsection:
+      expert: Ekspert
+      advanced: Zaawansowane
+      intermediate: Średniozaawansowane
+    nonStaticNames:
+      design: Architektura oprogramowania i wzorce projektowe
+      ai: Produktywne korzystanie z AI
+  education:
+    title: Wykształcenie
+    school:
+      wsb:
+        name: Uniwersytet WSB Merito Gdańsk
+        period: 2018 - 2019
+        details: Dyplom inżyniera
+      ug:
+        name: Uniwersytet Gdański
+        period: 2014 – 2016
+        details: Licencjat, studia przerwane na ostatnim roku aby przejść na kierunek inżynierski
+  other:
+    title: Pozostałe
+    subsection:
+      languages:
+        title: Języki
+        content: Polski (Ojczysty), Angielski (zaawansowany, certyfikat B2 z uczelni)
+      hobbies:
+        title: Zainteresowania
+        content: Jazda na rolkach, Gry wideo (design, architektura i jako rozrywka)
+      cheesecake:
+        title: Preferowany rodzaj sernika
+        content: Bez rodzynek
 
 agreement: Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
