@@ -18,6 +18,47 @@ profile:
 section:
   professionalExperience:
     title: Doświadczenie Zawodowe
+    job:
+      domidia:
+        name: Domidia
+        period: 2017 - Dzisiaj (8 lat 4 miesiące)
+        senior:
+          title: Senior Software Developer / DevOps Engineer / .NET Tech Lead
+          period: 2019 - Dzisiaj (6 lat)
+          responsibilities:
+            "0": Branie odpowiedzialności za jakość kodu backendowego, użyte technologie i dostarczanie funkcjonalności
+            "1": Budowanie infrastruktury SaaS dla naszego nowego produktu (Azure, Kubernetes)
+            "2": Rozwój kodu backendowego, z okazjonalnym prototypowaniem frontendu
+            "3": Budowanie i zarządzanie infrastrukturą CI/CD dla wszystkich produktów firmy (TeamCity)
+            "4": Nadzór nad rozwojem .NETowego portu naszego flagowego produktu
+            "5": Tworzenie procesów rekrutacyjnych i przeprowadzanie rozmów kwalifikacyjnych
+            "6": Integracja z API serwisów rządowych
+            "7": Zarządzanie małymi zespołami deweloperskimi
+        mid:
+          title: Software Developer / DevOps Engineer
+          period: 2018 - 2019 (1 rok)
+          responsibilities:
+            "0": Tworzenie aplikacji full stack (80% .NET, 20% Vue.js)
+            "1": Budowanie i zarządzanie infrastrukturą CI/CD dla nowych produktów
+            "2": Rozwój .NETowego portu naszego flagowego produktu
+            "3": Pomaganie w rekrutacjach na backendowców i frontendowców
+            "4": Integracja z API serwisów rządowych
+        junior:
+          title: Junior Software Developer
+          period: 2017 - 2018 (1 rok)
+          responsibilities:
+            "0": Tworzenie aplikacji wewnętrznych (.NET Core, Angular)
+            "1": Portowanie kodu Delphi na współczesny C#
+      wave:
+        name: Wave
+        period: 2014 - 2017 (2 lata 9 miesięcy, niepełny etat)
+        defaultPosition:
+          title: Full Stack Developer
+          period: 2014 - 2017 (2 lata 9 miesięcy)
+          responsibilities:
+            "0": Tworzenie backendów (LAMP stack)
+            "1": Tworzenie frontendów (JavaScript, JQuery, HTML/CSS)
+            "2": Budowanie infrastruktury serwerowej opartej na systemie linux
   technicalSkills:
     title: Umiejętności Techniczne
     subsection:
@@ -33,7 +74,7 @@ section:
       wsb:
         name: Uniwersytet WSB Merito Gdańsk
         period: 2018 - 2019
-        details: Dyplom inżyniera
+        details: Dyplom inżyniera, studia zaoczne
       ug:
         name: Uniwersytet Gdański
         period: 2014 – 2016

@@ -18,6 +18,47 @@ profile:
 section:
   professionalExperience:
     title: Professional Experience
+    job:
+      domidia:
+        name: Domidia
+        period: 2017 - Present (8 years 4 months)
+        senior:
+          title: Senior Software Developer / DevOps Engineer / .NET Tech Lead
+          period: 2019 - Present (6 years)
+          responsibilities:
+            "0": Taking responsibility for backend code quality, technology usage and feature delivery
+            "1": Building SaaS infrastructure for our new product (Azure, Kubernetes)
+            "2": Developing backend code, with occasional frontend prototyping
+            "3": Building and managing CI/CD infrastructure for all company's products (TeamCity)
+            "4": Overseeing the development of our mainline product's .NET port
+            "5": Creating recruitment processes and performing interviews
+            "6": Integrating with government service APIs
+            "7": Managing small development teams
+        mid:
+          title: Software Developer / DevOps Engineer
+          period: 2018 - 2019 (1 year)
+          responsibilities:
+            "0": Developing full stack web applications (80% .NET, 20% Vue.js)
+            "1": Building and managing CI/CD infrastructure for new software
+            "2": Developing .NET port of our mainline product
+            "3": Assistance in recruitment processes of backend and frontend developers
+            "4": Integrating with government service APIs
+        junior:
+          title: Junior Software Developer
+          period: 2017 - 2018 (1 year)
+          responsibilities:
+            "0": Developing internal applications (.NET Core, Angular)
+            "1": Porting Delphi code to modern C#
+      wave:
+        name: Wave
+        period: 2014 - 2017 (2 years 9 months, part time)
+        defaultPosition:
+          title: Full Stack Developer
+          period: 2014 - 2017 (2 years 9 months)
+          responsibilities:
+            "0": Developing backends (LAMP stack)
+            "1": Developing frontends (JavaScript, JQuery, HTML/CSS)
+            "2": Building linux-based server infrastructure
   technicalSkills:
     title: Technical Skills
     subsection:
@@ -33,7 +74,7 @@ section:
       wsb:
         name: WSB Merito University Gdańsk
         period: 2018 - 2019
-        details: Engineer's degree
+        details: Engineer's degree, part-time studies
       ug:
         name: University of Gdańsk
         period: 2014 – 2016

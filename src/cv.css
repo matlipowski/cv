@@ -30,23 +30,23 @@ body {
 .header {
     background: linear-gradient(135deg, var(--main-color), var(--main-color-gradient-fade));
     color: var(--inner-background-color);
-    padding: 20px 40px;
+    padding: 10px 30px;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .profile-info h1 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: 700;
 }
 
 .profile-info h2 {
-    font-size: 1.3em;
-    margin-bottom: 18px;
+    font-size: 1.2em;
+    margin-bottom: 8px;
     opacity: 0.9;
     font-weight: 400;
 }
@@ -61,15 +61,13 @@ body {
 .profile-image {
     flex-shrink: 0;
     margin-left: 30px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3em;
-    font-weight: bold;
     color: var(--inner-background-color);
     border: 4px solid var(--inner-background-color);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -124,12 +122,12 @@ body {
 
 /* Section Styles */
 .section {
-    padding: 20px 40px;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 40px;
+    margin-top: 30px;
 }
 
-.section:last-child {
-    border-bottom: none;
+.sections .section:first-child {
+    margin-top: 0;
 }
 
 .section-title {
@@ -179,7 +177,7 @@ body {
 }
 
 .company-group {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -236,7 +234,7 @@ body {
     content: '';
     position: absolute;
     left: -53px; /* -20px (position-timeline margin) - 25px (half timeline padding 50px) - 6px (half dot width 12px) - 2px (border visual adjustment) */
-    top: 10px;
+    top: 7px;
     width: 12px;
     height: 12px;
     background: var(--main-color);
@@ -258,7 +256,7 @@ body {
 
 .job-title {
     color: #333;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
 }
 
@@ -269,6 +267,7 @@ body {
 }
 
 .job-responsibilities {
+    font-size: 0.9em;
     list-style: none;
     padding-left: 0;
 }
@@ -276,7 +275,7 @@ body {
 .job-responsibilities li {
     position: relative;
     padding-left: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     color: #555;
 }
 
@@ -292,22 +291,22 @@ body {
 .skills-container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
 }
 
 .skill-group {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 4px;
 }
 
 .skill-level {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     color: #333;
     margin: 0;
     padding-bottom: 8px;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .skill-tags {
@@ -319,14 +318,17 @@ body {
 .skill-tag {
     padding: 4px 8px;
     border-radius: 4px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 0.8em;
     color: #333;
 }
 
 /* Education Section Styles */
 .education-item {
     margin-bottom: 20px;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
 }
 
 .education-header {
@@ -388,6 +390,10 @@ body {
     line-height: 1.5;
 }
 
+.agreement-section {
+    border-top: 1px solid #e0e0e0;
+}
+
 .agreement {
     font-size: 0.7em;
     line-height: 0.8em;
@@ -411,6 +417,14 @@ body {
         transform: none;
         box-shadow: none;
     }
+
+    .section {
+        margin-top: 10px;
+    }
+
+    .print-page-break {
+        break-after: page;
+    }
 }
 
 /* Mobile Styles */
@@ -431,9 +445,8 @@ body {
 
     .profile-image {
         margin: 20px 0 0 0;
-        width: 120px;
-        height: 120px;
-        font-size: 2.5em;
+        width: 100px;
+        height: 100px;
     }
 
     .contact-info {
