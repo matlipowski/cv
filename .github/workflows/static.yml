@@ -38,9 +38,9 @@ jobs:
       - name: Generate translated outputs
         run: static-i18n --locales en --locales pl --output-dir out --fileFormat yml src
       - name: Copy assets
-        run: cp -fr src\assets out\assets
+        run: cp -fr src/assets out/assets
       - name: Copy style
-        run: cp -f src\cv.css out\cv.css
+        run: cp -f src/cv.css out/cv.css
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
