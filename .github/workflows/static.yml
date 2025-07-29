@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy CV to Pages
 
 on:
   push:
@@ -8,11 +8,6 @@ on:
       - 'src/**'
       
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -25,26 +20,35 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
+
       - name: Install static-i18n
         run: npm install -g static-i18n
+
       - name: Generate translated outputs
         run: static-i18n --locales en --locales pl --output-dir out --fileFormat yml src
+
       - name: Copy assets
         run: cp -fr src/assets out/assets
+
       - name: Copy style
         run: cp -f src/cv.css out/cv.css
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'out'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
