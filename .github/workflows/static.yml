@@ -10,6 +10,7 @@ on:
   workflow_dispatch:
   
 permissions:
+  pages: write
   id-token: write
 
 concurrency:
