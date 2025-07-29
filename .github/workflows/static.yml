@@ -8,6 +8,9 @@ on:
       - 'src/**'
       
   workflow_dispatch:
+  
+permissions:
+  id-token: write
 
 concurrency:
   group: "pages"
